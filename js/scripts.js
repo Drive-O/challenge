@@ -19,5 +19,9 @@ $(document).ready(() => {
     $(this).toggleClass('active');
   })
 
+  $('.row').click(function(){
+    $(this).find('.subtext').slideToggle('slow');
+  })
+
 
 })
